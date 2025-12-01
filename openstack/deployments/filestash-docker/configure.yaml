@@ -1,6 +1,6 @@
 ---
 - name: Deploy application with Docker Compose
-  hosts: ark-filestash
+  hosts: cloud-filestash
   become: yes # Run tasks with sudo
   tasks:
     - name: Update apt cache
